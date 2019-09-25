@@ -158,7 +158,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 darkwake=0 slide=0</string>
+		<string>dart=0 darkwake=0</string>
 		<key>DefaultVolume</key>
 		<string>Macintosh HD</string>
 		<key>HibernationFixup</key>
