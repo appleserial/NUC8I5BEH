@@ -187,7 +187,7 @@
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
-			<integer>1</integer>
+			<integer>3</integer>
 		</dict>
 		<key>FakeID</key>
 		<dict>
@@ -348,26 +348,6 @@
 				igKEwOtC
 				</data>
 			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>IONVMeFamily Pike R. Alpha PM981 patch by DalianSky</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				9sEQD4VBAQA=
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>MatchOS</key>
-				<string>10.13.x,10.14</string>
-				<key>Name</key>
-				<string>IONVMeFamily</string>
-				<key>Replace</key>
-				<data>
-				9sEBD4VBAQA=
-				</data>
-			</dict>
 		</array>
 	</dict>
 	<key>RtVariables</key>
@@ -377,7 +357,7 @@
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
 		<key>MLB</key>
-		<string>C0780960****C</string>
+		<string>C07809609****</string>
 		<key>ROM</key>
 		<data>
 		oBczIlUJ
@@ -396,7 +376,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C0780960****C</string>
+		<string>C07809609****</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -426,7 +406,7 @@
 		<key>ProductName</key>
 		<string>Macmini8,1</string>
 		<key>SerialNumber</key>
-		<string>C07WC8Z****X</string>
+		<string>C07WC8ZV****</string>
 		<key>SmUUID</key>
 		<string>BE2886E2-833D-4FF5-****-B772523753DF</string>
 		<key>Version</key>
