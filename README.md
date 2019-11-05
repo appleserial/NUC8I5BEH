@@ -43,3 +43,4 @@
 ### credits
 
 + https://github.com/Rashed97/Intel-NUC-DSDT-Patch
++ https://github.com/Rashed97/Intel-NUC-DSDT-Patch/commit/47476815b52f8e4c97e8f85df158c9ab1b6ecedd

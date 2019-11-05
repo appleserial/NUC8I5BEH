@@ -33,13 +33,9 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				X09TSQ==
-				</data>
+				<data>X09TSQ==</data>
 				<key>Replace</key>
-				<data>
-				WE9TSQ==
-				</data>
+				<data>WE9TSQ==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -47,13 +43,9 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				SF9FQw==
-				</data>
+				<data>SF9FQw==</data>
 				<key>Replace</key>
-				<data>
-				RUNfXw==
-				</data>
+				<data>RUNfXw==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -61,13 +53,9 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				R0ZYMA==
-				</data>
+				<data>R0ZYMA==</data>
 				<key>Replace</key>
-				<data>
-				SUdQVQ==
-				</data>
+				<data>SUdQVQ==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -75,13 +63,9 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				SEVDSQ==
-				</data>
+				<data>SEVDSQ==</data>
 				<key>Replace</key>
-				<data>
-				SU1FSQ==
-				</data>
+				<data>SU1FSQ==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -89,13 +73,9 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				U0FUMA==
-				</data>
+				<data>U0FUMA==</data>
 				<key>Replace</key>
-				<data>
-				U0FUQQ==
-				</data>
+				<data>U0FUQQ==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -103,13 +83,9 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				X0RTTQ==
-				</data>
+				<data>X0RTTQ==</data>
 				<key>Replace</key>
-				<data>
-				WERTTQ==
-				</data>
+				<data>WERTTQ==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -117,17 +93,11 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				X1NUQQ==
-				</data>
+				<data>X1NUQQ==</data>
 				<key>Replace</key>
-				<data>
-				WFNUQQ==
-				</data>
+				<data>WFNUQQ==</data>
 				<key>TgtBridge</key>
-				<data>
-				WERDSQ==
-				</data>
+				<data>WERDSQ==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -135,13 +105,9 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				X1JNVg==
-				</data>
+				<data>X1JNVg==</data>
 				<key>Replace</key>
-				<data>
-				WFJNVg==
-				</data>
+				<data>WFJNVg==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -149,13 +115,9 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				oAqTU1RBUwE=
-				</data>
+				<data>oAqTU1RBUwE=</data>
 				<key>Replace</key>
-				<data>
-				oAqRCv8L//8=
-				</data>
+				<data>oAqRCv8L//8=</data>
 			</dict>
 		</array>
 		<key>Quirks</key>
@@ -221,7 +183,6 @@
 			<false/>
 		</dict>
 	</dict>
-
 	<key>DeviceProperties</key>
 	<dict>
 		<key>Add</key>
@@ -256,7 +217,6 @@
 			</dict>
 		</dict>
 	</dict>
-
 	<key>Kernel</key>
 	<dict>
 		<key>Add</key>
@@ -373,7 +333,6 @@
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
-
 			<dict>
 				<key>BundlePath</key>
 				<string>FakePCIID.kext</string>
@@ -396,7 +355,6 @@
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
-
 			<dict>
 				<key>BundlePath</key>
 				<string>USBPorts.kext</string>
@@ -407,7 +365,6 @@
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
-
 		</array>
 		<key>Block</key>
 		<array>
@@ -427,11 +384,9 @@
 		<key>Emulate</key>
 		<dict>
 			<key>Cpuid1Data</key>
-			<data>
-			</data>
+			<data></data>
 			<key>Cpuid1Mask</key>
-			<data>
-			</data>
+			<data></data>
 		</dict>
 		<key>Patch</key>
 		<array>
@@ -445,27 +400,21 @@
 				<key>Enabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				dS4Ptg==
-				</data>
+				<data>dS4Ptg==</data>
 				<key>Identifier</key>
 				<string>com.apple.driver.AppleRTC</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
 				<string></string>
 				<key>Replace</key>
-				<data>
-				6y4Ptg==
-				</data>
+				<data>6y4Ptg==</data>
 				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -479,27 +428,21 @@
 				<key>Enabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				dTMPtw==
-				</data>
+				<data>dTMPtw==</data>
 				<key>Identifier</key>
 				<string>com.apple.driver.AppleRTC</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>MaxKernel</key>
 				<string>18.5.0</string>
 				<key>MinKernel</key>
 				<string>18.5.0</string>
 				<key>Replace</key>
-				<data>
-				6zMPtw==
-				</data>
+				<data>6zMPtw==</data>
 				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -513,26 +456,21 @@
 				<key>Enabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Identifier</key>
 				<string>com.apple.driver.AppleACPIPlatform</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>MaxKernel</key>
 				<string>18.5.0</string>
 				<key>MinKernel</key>
 				<string>18.5.0</string>
 				<key>Replace</key>
-				<data>
-				ww==
-				</data>
+				<data>ww==</data>
 				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -546,28 +484,21 @@
 				<key>Enabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				6AAA//9miYMABQAA
-				</data>
+				<data>6AAA//9miYMABQAA</data>
 				<key>Identifier</key>
 				<string>com.apple.iokit.AppleBCM5701Ethernet</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				/wAA////////////
-				</data>
+				<data>/wAA////////////</data>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
 				<string></string>
 				<key>Replace</key>
-				<data>
-				uLQWAABmiYMABQAA
-				</data>
+				<data>uLQWAABmiYMABQAA</data>
 				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -701,25 +632,18 @@
 			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
 			<dict>
 				<key>UIScale</key>
-				<data>
-				AQ==
-				</data>
+				<data>AQ==</data>
 			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
 				<string>dart=0 keepsyms=1 slide=0 darkwake=0</string>
 				<key>csr-active-config</key>
-				<data>
-				AAAAAA==
-				</data>
+				<data>5wMAAA==</data>
 				<key>nvda_drv</key>
-				<data>
-				MQ==
-				</data>
+				<data>MQ==</data>
 				<key>prev-lang:kbd</key>
-				<data>
-				</data>
+				<data></data>
 			</dict>
 		</dict>
 		<key>Block</key>
@@ -761,7 +685,6 @@
 			</array>
 		</dict>
 	</dict>
-
 	<key>PlatformInfo</key>
 	<dict>
 		<key>Automatic</key>
@@ -790,7 +713,6 @@
 		<key>UpdateSMBIOSMode</key>
 		<string>Create</string>
 	</dict>
-
 	<key>UEFI</key>
 	<dict>
 		<key>ConnectDrivers</key>
