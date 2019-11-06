@@ -8,8 +8,11 @@
 + Intel® Core™ i5-8259U Processor (6M Cache, up to 3.80 GHz)
 + SSD: 512GB [ADATA S11Pro NVME](https://union-click.jd.com/jdc?e=&p=AyIGZRprFQMTBlQeUhwDFABcKx9KWkxYZUIeUENQDEsFA1BWThgJBABAHUBZCQUdRUFGGRJDD1MdQlUQQwVKDFRXFk8jQA4SBlQaWhALGwZTHFIlUERQV1gbFHJ3BglDUmhCYXgWWQcLVB4LZRprFQMTB1MeXxwGEjdlG1wlVHwHVBpaFAMTAVUeaxQyEgNSEloWARMPVhhfETIVB1wrWxwBFQRWHV8VBhFpFCtrJQEiN2UbaxYyUGlVGlsWBBsDUh8PFwQXVwIaUxIEF1NSSQ9BBBQEAB1bFDIQBlQfUg%3D%3D)
 + RAM: 8GB x 2 [ADATA DDR4 2400](https://union-click.jd.com/jdc?e=&p=AyIGZRteEgYSAVEcWRQyEARSGV0RAxAFVR5rUV1KWQorAlBHU0VeBUVNR0ZbSkdETlcNVQtHRVNSUVNLXANBRA1XB14DS10cQQVYD21XHgVWHFkTBhMFVxteJUZOXRUcBEFXcl8NXxNSHBsHMEIPUnIeC2UaaxUDEwdTHl8cBhI3ZRtcJUN8B1QaWBEEEwFlGmsVBhUOVBhYFQoRAF0SaxICGzdVElgSAREBURtfFmxTN2UrWCUyIgdlGGtXbEdXBh5fQgEaAlJLDBAEFQ9cGAlFBkEPVUsMFQFCAldLaxcDEwNc)
-+ Clover: Clover_v2.5k_r5070
 + BIOS: 0073
+
+### Bootloader
++ Clover 5070
++ OpenCore 0.5.2
 
 ### What's working
 
@@ -22,7 +25,7 @@
 + disable __Secure Boot__
 + disable __Legacy Boot__
 + Create bootable USB with macOS Mojave
-+ `git clone --depth https://github.com/csrutil/NUC8I5BEH`, copy EFI to your USB EFI folder
++ `git clone --depth https://github.com/csrutil/NUC8I5BEH`, copy EFI/OC_EFI to your USB EFI folder
 + Change your mac serial number
 
 ### Cinebench

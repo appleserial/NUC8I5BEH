@@ -524,7 +524,7 @@
 			<key>PowerTimeoutKernelPanic</key>
 			<false/>
 			<key>ThirdPartyTrim</key>
-			<false/>
+			<true/>
 			<key>XhciPortLimit</key>
 			<false/>
 		</dict>
@@ -692,7 +692,7 @@
 		<key>Generic</key>
 		<dict>
 			<key>MLB</key>
-			<string>C07809609CD8C</string>
+			<string>CHANGE_ME</string>
 			<key>ROM</key>
 			<data>A01733225509</data>
 			<key>SpoofVendor</key>
@@ -700,9 +700,9 @@
 			<key>SystemProductName</key>
 			<string>Macmini8,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C07WC8ZVJYVX</string>
+			<string>CHANGE_ME</string>
 			<key>SystemUUID</key>
-			<string>BE2886E2-833D-4FF5-A8E7-B772523753DF</string>
+			<string>CHANGE_ME</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
