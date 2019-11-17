@@ -18,7 +18,6 @@
 ### What's not working
 
 + Wi-Fi & bluetooth
-+ eGPU hot swap
 
 ### How to install
 
