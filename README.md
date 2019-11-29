@@ -25,7 +25,7 @@
 + Disable __Secure Boot__
 + Disable __Legacy Boot__
 + Create bootable USB with macOS Mojave
-+ `git clone --depth https://github.com/csrutil/NUC8I5BEH`
++ `git clone --depth 1 https://github.com/csrutil/NUC8I5BEH`
 + Change your mac serial number [Config.plist](https://github.com/csrutil/NUC8I5BEH/blob/master/OC_EFI/OC/Config.plist#L672:L683)
 + Copy EFI/OC_EFI to your USB EFI folder
 
