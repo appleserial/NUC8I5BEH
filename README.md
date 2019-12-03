@@ -13,7 +13,7 @@
 
 ### Bootloader
 + Clover 5070
-+ OpenCore 0.5.2
++ OpenCore 0.5.3
 
 ### What's not working
 
