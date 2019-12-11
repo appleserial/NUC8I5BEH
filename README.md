@@ -2,7 +2,7 @@
 
 ![Hackintosh](test/overview.png)
 
-### Specs
+### specs
 
 + macOS: macOS Mojave 10.14.6 18G1012 x86_64 / Macmini8,1
 + CPU: Intel® Core™ i5-8259U Processor (6M Cache, up to 3.80 GHz)
@@ -11,15 +11,15 @@
 + BIOS: 0075
 + Monitor: [DELL U2518D](https://union-click.jd.com/jdc?e=&p=AyIGZRtaHAAaAFUdWh0yEQZdHVoTAhsCVRhrUV1KWQorAlBHU0VeBUVNR0ZbSkdETlcNVQtHRVNSUVNLXANBRA1XB14DS10cQQVYD21XHgRUE10UBBIOUBtYJV1KRgVPGRwHcEQraAlXQE9%2FIWs9ZmIeC2UaaxUDEwdTHl8cBhI3ZRtcJUN8AVYfWhIFIgZlG18TABIPVRpTEAsQBWUcWxwyEg5WHFgWBBYHURg1VDIiN1YrayUCIgRlWTVHVxQDB0lTHAMUDlYeUhECG1IGGAkcARZTVR1dHQcSAmUZWhQGGw%3D%3D)
 
-### Bootloader
+### bootloader
 + Clover 5070
 + OpenCore 0.5.3
 
-### What's not working
+### what's not working
 
 + Wi-Fi & bluetooth
 
-### How to install
+### how to install
 
 + Disable the Bluetooth/WiFi on the BIOS
 + Disable __Secure Boot__
@@ -33,7 +33,7 @@
 
 ![Cinebench](test/cinebench.png)
 
-### Tips
+### tips
 
 + Change Host Name
 	```
@@ -44,7 +44,7 @@
 
 + Generate mac serial number https://chengxuxiaohei.cn/mac-sjsm.html
 
-### Changelogs
+### changelogs
 
 + macOS Mojave 10.14.6 18G2022 x86_64 🎉
 + macOS Mojave 10.14.6 18G1012 x86_64 🎉
