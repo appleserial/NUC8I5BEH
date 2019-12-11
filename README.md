@@ -44,6 +44,11 @@
 
 + Generate mac serial number https://chengxuxiaohei.cn/mac-sjsm.html
 
+### Changelogs
+
++ macOS Mojave 10.14.6 18G2022 x86_64 🎉
++ macOS Mojave 10.14.6 18G1012 x86_64 🎉
+
 ### credits
 
 + https://github.com/Rashed97/Intel-NUC-DSDT-Patch
