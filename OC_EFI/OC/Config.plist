@@ -89,18 +89,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>change XDCI._STA to XDCI.XSTA</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>X1NUQQ==</data>
-				<key>Replace</key>
-				<data>WFNUQQ==</data>
-				<key>TgtBridge</key>
-				<data>WERDSQ==</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>rename _RMV to XRMV</string>
 				<key>Enabled</key>
 				<true/>
@@ -620,7 +608,7 @@
 				<key>nvda_drv</key>
 				<data>MQ==</data>
 				<key>prev-lang:kbd</key>
-				<data></data>
+				<data>ZW4tQ046MjUy</data>
 			</dict>
 		</dict>
 		<key>Block</key>
