@@ -2,7 +2,7 @@
 
 ![Hackintosh](test/overview.png)
 
-### specs
+### Specs
 
 + OS: macOS Catalina 10.15.6 / Macmini8,1
 + CPU: Intel® Core™ i5-8259U Processor (6M Cache, up to 3.80 GHz)
@@ -11,13 +11,31 @@
 + BIOS: 0075
 + Monitor: [DELL U2518D](https://union-click.jd.com/jdc?e=&p=AyIGZRtaHAAaAFUdWh0yEQZdHVoTAhsCVRhrUV1KWQorAlBHU0VeBUVNR0ZbSkdETlcNVQtHRVNSUVNLXANBRA1XB14DS10cQQVYD21XHgRUE10UBBIOUBtYJV1KRgVPGRwHcEQraAlXQE9%2FIWs9ZmIeC2UaaxUDEwdTHl8cBhI3ZRtcJUN8AVYfWhIFIgZlG18TABIPVRpTEAsQBWUcWxwyEg5WHFgWBBYHURg1VDIiN1YrayUCIgRlWTVHVxQDB0lTHAMUDlYeUhECG1IGGAkcARZTVR1dHQcSAmUZWhQGGw%3D%3D)
 
-### bootloader
+### Bootloader
 + OpenCore 0.5.9
 
-### what's not working
-+ Wi-Fi & bluetooth
+### Not working
++ Bluetooth
 
-### how to install
+
+### How to setup the Wi-Fi
+
++ Edit the EFI/OC/Kexts/itlwm.kext/Contents/Info.plist file with your SSID and password
+
++ Example
+
+  ```
+  # my ssid is AP0, password is abcd127812718
+
+  <dict>
+    <key>password</key>
+    <string>abcd127812718</string>
+    <key>ssid</key>
+    <string>AP0</string>
+  </dict>
+  ```
+
+### How to install
 
 + Disable the Bluetooth/WiFi on the BIOS
 + Disable __Secure Boot__
