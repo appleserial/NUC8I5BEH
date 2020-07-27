@@ -20,12 +20,12 @@
 
 ### How to setup the Wi-Fi
 
-+ Edit the EFI/OC/Kexts/itlwm.kext/Contents/Info.plist file with your SSID and password
++ Edit the `EFI/OC/Kexts/itlwm.kext/Contents/Info.plist file with your SSID and password`
 
 + Example
 
   ```
-  # my ssid is AP0, password is abcd127812718
+  # My ssid is AP0, password is abcd127812718
 
   <dict>
     <key>password</key>
