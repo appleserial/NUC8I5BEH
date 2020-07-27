@@ -4,7 +4,7 @@
 
 ### Specs
 
-+ OS: macOS Catalina 10.15.6 / Macmini8,1
++ OS: macOS 10.15.6 19G73 x86_64 / Macmini8,1
 + CPU: Intel® Core™ i5-8259U Processor (6M Cache, up to 3.80 GHz)
 + SSD: 512GB [ADATA S11Pro NVME](https://union-click.jd.com/jdc?e=&p=AyIGZRprFQMTBlQeUhwDFABcKx9KWkxYZUIeUENQDEsFA1BWThgJBABAHUBZCQUdRUFGGRJDD1MdQlUQQwVKDFRXFk8jQA4SBlQaWhALGwZTHFIlUERQV1gbFHJ3BglDUmhCYXgWWQcLVB4LZRprFQMTB1MeXxwGEjdlG1wlVHwHVBpaFAMTAVUeaxQyEgNSEloWARMPVhhfETIVB1wrWxwBFQRWHV8VBhFpFCtrJQEiN2UbaxYyUGlVGlsWBBsDUh8PFwQXVwIaUxIEF1NSSQ9BBBQEAB1bFDIQBlQfUg%3D%3D)
 + RAM: 8GB x 2 [ADATA DDR4 2400](https://union-click.jd.com/jdc?e=&p=AyIGZRteEgYSAVEcWRQyEARSGV0RAxAFVR5rUV1KWQorAlBHU0VeBUVNR0ZbSkdETlcNVQtHRVNSUVNLXANBRA1XB14DS10cQQVYD21XHgVWHFkTBhMFVxteJUZOXRUcBEFXcl8NXxNSHBsHMEIPUnIeC2UaaxUDEwdTHl8cBhI3ZRtcJUN8B1QaWBEEEwFlGmsVBhUOVBhYFQoRAF0SaxICGzdVElgSAREBURtfFmxTN2UrWCUyIgdlGGtXbEdXBh5fQgEaAlJLDBAEFQ9cGAlFBkEPVUsMFQFCAldLaxcDEwNc)
@@ -37,9 +37,8 @@
 
 ### How to install
 
-+ Disable the Bluetooth/WiFi on the BIOS
 + Disable __Secure Boot__
-+ Disable __Legacy Boot__
++ Enable __Legacy Boot__
 + Create bootable USB with macOS Mojave
 + `git clone --depth 1 https://github.com/csrutil/NUC8I5BEH`
 + Put EFI to your USB EFI folder
@@ -61,7 +60,7 @@
 + Generate mac serial number https://chengxuxiaohei.cn/mac-sjsm.html
 
 ### Changelogs
-+ macOS Catalina 10.15.6
++ macOS Catalina macOS 10.15.6 19G73 x86_64 🎉
 + macOS Mojave 10.14.6 18G3020 x86_64 🎉
 + macOS Mojave 10.14.6 18G2022 x86_64 🎉
 + macOS Mojave 10.14.6 18G1012 x86_64 🎉
