@@ -1,6 +1,6 @@
 # NUC8I5BEH Hackintosh
 
-![Hackintosh](test/overview.png)
+![Hackintosh](test/M2Y4ZGEzNzQz-overview.png)
 
 ### Specs
 
