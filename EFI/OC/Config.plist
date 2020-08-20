@@ -112,6 +112,8 @@
       <false/>
       <key>ProvideCustomSlide</key>
       <true/>
+      <key>ProvideMaxSlide</key>
+      <integer>0</integer>
       <key>RebuildAppleMemoryMap</key>
       <false/>
       <key>SetupVirtualMap</key>
@@ -583,8 +585,6 @@
       <true/>
       <key>AuthRestart</key>
       <false/>
-      <key>BlacklistAppleUpdate</key>
-      <true/>
       <key>ExposeSensitiveData</key>
       <integer>3</integer>
       <key>HaltLevel</key>
@@ -641,6 +641,8 @@
       <dict>
         <key>boot-args</key>
         <string>-v dart=0 keepsyms=1 slide=0 darkwake=0</string>
+        <key>run-efi-updater</key>
+        <string>No</string>
         <key>csr-active-config</key>
         <data>AAAAAA==</data>
         <key>nvda_drv</key>
