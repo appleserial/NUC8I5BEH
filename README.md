@@ -68,7 +68,7 @@
 
 
 ### Telegram
-[Join Telegram](https://t.me/intel_nuc)
+[Join Telegram](https://t.me/hackintash)
 
 ### credits
 
