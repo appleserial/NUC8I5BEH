@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>19G73</string>
+	<string>19A583</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -27,17 +27,17 @@
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>11E708</string>
+	<string>11A420a</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>16E185</string>
+	<string>16C58</string>
 	<key>DTSDKName</key>
 	<string>macosx10.12</string>
 	<key>DTXcode</key>
-	<string>1160</string>
+	<string>1100</string>
 	<key>DTXcodeBuild</key>
-	<string>11E708</string>
+	<string>11A420a</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>itlwm</key>
@@ -57,6 +57,7 @@
 			<key>IOUserClientClass</key>
 			<string>ItlNetworkUserClient</string>
 			<key>WiFiConfig</key>
+
 			<dict>
 				<key>K2P</key>
 				<dict>
