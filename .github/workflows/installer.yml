@@ -1,0 +1,47 @@
+name: installer
+
+on:
+  release:
+    types: [created]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    env:
+      ROOT: /home/runner/work/NUC8I5BEH/NUC8I5BEH
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install zip tree -y
+
+    - name: Download - macOS Recovery
+      run: |
+        cd $ROOT
+        curl -OL https://raw.githubusercontent.com/acidanthera/OpenCorePkg/master/Utilities/macrecovery/macrecovery.py
+        python macrecovery.py -b Mac-E43C1C25D4880AD6 -m 00000000000000000 download
+
+    - name: Compress
+      run: |
+        cd $ROOT
+        mkdir -p USB-Installer/com.apple.recovery.boot
+        cp BaseSystem* USB-Installer/com.apple.recovery.boot
+        cp -r EFI USB-Installer
+        echo 'Install macOS' > USB-Installer/com.apple.recovery.boot/.contentDetails
+
+        zip -r USB-Installer.zip USB-Installer
+
+    - name: Release - push to release file
+      uses: softprops/action-gh-release@v1
+      if: startsWith(github.ref, 'refs/tags/')
+      with:
+        files: /home/runner/work/NUC8I5BEH/NUC8I5BEH/USB-Installer.zip
+      env:
+        GITHUB_TOKEN: ${{ secrets.ACTION_GITHUB_TOKEN }}
