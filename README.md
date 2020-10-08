@@ -1,6 +1,6 @@
 # NUC8I5BEH Hackintosh
 
-![Hackintosh](test/ZDhmODM3OGVj.png)
+![Hackintosh](misc/ZDhmODM3OGVj.png)
 
 ### SPECS
 + OS: macOS Catalina 10.15.7 19H2 x86_64 / Macmini8,1
@@ -22,13 +22,13 @@
 
 
 ### BUY ME A COFFEE
-![Buy Me A Coffee](apps/WechatPay.png)
+![Buy Me A Coffee](misc/WechatPay.png)
 
 [PayPal](https://www.paypal.me/iore)
 
 
 ### CINEBENCH
-![Cinebench](test/cinebench.png)
+![Cinebench](misc/cinebench.png)
 
 ### TIPS
 + Change Host Name
