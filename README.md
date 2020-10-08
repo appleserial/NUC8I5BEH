@@ -18,8 +18,11 @@
 ### BIOS
 + Disable __Secure Boot__
 + Enable __Legacy Boot__
-+ Disable Wi-Fi and Bluetooth
++ Disable __Wi-Fi and Bluetooth__
 
+
+### Q&A
++ Soldered Wi-Fi and Bluetooth are not stable yet, will integrate later🍻
 
 ### BUY ME A COFFEE
 ![Buy Me A Coffee](misc/WechatPay.png)
