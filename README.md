@@ -19,6 +19,7 @@
 + Disable __Secure Boot__
 + Enable __Legacy Boot__
 + Disable __Wi-Fi and Bluetooth__
++ Disabled Bluetooth and WiFi
 
 
 ### Q&A
