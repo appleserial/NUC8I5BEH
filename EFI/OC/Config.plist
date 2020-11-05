@@ -632,6 +632,20 @@
         <key>Enabled</key>
         <true/>
         <key>Name</key>
+        <string>VerifyMsrE2</string>
+        <key>Path</key>
+        <string>VerifyMsrE2.efi</string>
+      </dict>
+      <dict>
+        <key>Arguments</key>
+        <string></string>
+        <key>Auxiliary</key>
+        <false/>
+        <key>Comment</key>
+        <string>Not signed for security reasons</string>
+        <key>Enabled</key>
+        <true/>
+        <key>Name</key>
         <string>UEFI Shell</string>
         <key>Path</key>
         <string>OpenShell.efi</string>
