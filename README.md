@@ -1,9 +1,9 @@
 # NUC8I5BEH Hackintosh
 
-![Hackintosh](misc/ZDhmODM3OGVj.png)
+![Hackintosh](misc/ZmJlNmVkMTJj.png)
 
 ### SPECS
-+ OS: macOS Catalina 10.15.7 19H2 x86_64 / Macmini8,1
++ OS: macOS Big Sur 11.0.1 20B29 x86_64 / Macmini8,1
 + OpenCore: 0.6.3
 + CPU: Intel® Core™ i5-8259U Processor (6M Cache, up to 3.80 GHz)
 + SSD: 512GB [ADATA S11Pro NVME](https://union-click.jd.com/jdc?e=&p=AyIGZRprFQMTBlQeUhwDFABcKx9KWkxYZUIeUENQDEsFA1BWThgJBABAHUBZCQUdRUFGGRJDD1MdQlUQQwVKDFRXFk8jQA4SBlQaWhALGwZTHFIlUERQV1gbFHJ3BglDUmhCYXgWWQcLVB4LZRprFQMTB1MeXxwGEjdlG1wlVHwHVBpaFAMTAVUeaxQyEgNSEloWARMPVhhfETIVB1wrWxwBFQRWHV8VBhFpFCtrJQEiN2UbaxYyUGlVGlsWBBsDUh8PFwQXVwIaUxIEF1NSSQ9BBBQEAB1bFDIQBlQfUg%3D%3D)
