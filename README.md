@@ -1,8 +1,9 @@
 # NUC8I5BEH Hackintosh
+This is the hackintosh for the NUC8I5BEH
 
 ![Hackintosh](misc/ZmJlNmVkMTJj.png)
 
-### SPECS
+## SPECS
 + OS: macOS Big Sur 11.0.1 20B29 x86_64 / Macmini8,1
 + OpenCore: 0.6.3
 + CPU: Intel® Core™ i5-8259U Processor (6M Cache, up to 3.80 GHz)
@@ -11,37 +12,56 @@
 + BIOS: 0075
 + Monitor: [DELL U2518D](https://union-click.jd.com/jdc?e=&p=AyIGZRtaHAAaAFUdWh0yEQZdHVoTAhsCVRhrUV1KWQorAlBHU0VeBUVNR0ZbSkdETlcNVQtHRVNSUVNLXANBRA1XB14DS10cQQVYD21XHgRUE10UBBIOUBtYJV1KRgVPGRwHcEQraAlXQE9%2FIWs9ZmIeC2UaaxUDEwdTHl8cBhI3ZRtcJUN8AVYfWhIFIgZlG18TABIPVRpTEAsQBWUcWxwyEg5WHFgWBBYHURg1VDIiN1YrayUCIgRlWTVHVxQDB0lTHAMUDlYeUhECG1IGGAkcARZTVR1dHQcSAmUZWhQGGw%3D%3D)
 
-### TELEGRAM
-[Join Telegram](https://t.me/hackintash)
+## TELEGRAM
+Please join Telegram [Join Telegram](https://t.me/hackintash), if you have any questions
 
 
-### BIOS
+## BIOS
 + Disable __Secure Boot__
 + Enable __Legacy Boot__
 + Disable __Wi-Fi and Bluetooth__
 
 
-### Q&A
-+ Soldered Wi-Fi and Bluetooth are not stable yet, will integrate later🍻
+## Q&A
 
-### BUY ME A COFFEE
+Soldered Wi-Fi and Bluetooth are not stable yet, will integrate later🍻
+
+## BUY ME A COFFEE
 ![Buy Me A Coffee](misc/WechatPay.png)
 
 [PayPal](https://www.paypal.me/iore)
 
 
-### CINEBENCH
+## CINEBENCH
 ![Cinebench](misc/cinebench.png)
 
-### TIPS
-+ Change Host Name
-	```
-	sudo scutil --set HostName mini
-	sudo scutil --set ComputerName mini
-	sudo scutil --set LocalHostName mini
-	```
+## TIPS
 
-### CREDITS
+### pmset
+  ```
+  # https://gist.github.com/csrutil/b2cce932dda8b226f37be2880215aee6
+  sudo pmset -c sleep 30
+  sudo pmset -c displaysleep 30
+  sudo pmset -c disksleep 30
+  sudo pmset -c hibernatemode 0
+  sudo pmset -c standby 0
+  sudo pmset -c autopoweroff 0
+  sudo pmset -c tcpkeepalive 1
+  ```
+
+### disable the Spotlight indexes
+  ```
+  sudo mdutil -a -i off
+  ```
+
+### change host name
+  ```
+  sudo scutil --set HostName mini
+  sudo scutil --set ComputerName mini
+  sudo scutil --set LocalHostName mini
+  ```
+
+## CREDITS
 + [acidanthera](https://github.com/acidanthera/OpenCorePkg)
 + [OpenIntelWireless](https://github.com/OpenIntelWireless/itlwm)
 + https://github.com/Rashed97/Intel-NUC-DSDT-Patch
