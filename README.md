@@ -27,10 +27,8 @@ Please join Telegram [Join Telegram](https://t.me/hackintash), if you have any q
 Soldered Wi-Fi and Bluetooth are not stable yet, will integrate later🍻
 
 ## BUY ME A COFFEE
-![Buy Me A Coffee](misc/WechatPay.png)
 
-[PayPal](https://www.paypal.me/iore)
-
+Bitcoin Address 15iEcYV1Xpr3xM4Ytyg9DCfcFwyifRFdQM
 
 ## CINEBENCH
 ![Cinebench](misc/cinebench.png)
