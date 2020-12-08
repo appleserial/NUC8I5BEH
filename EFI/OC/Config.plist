@@ -611,6 +611,8 @@
       <true/>
       <key>AuthRestart</key>
       <false/>
+      <key>BlacklistAppleUpdate</key>
+      <true/>
       <key>ExposeSensitiveData</key>
       <integer>3</integer>
       <key>HaltLevel</key>
