@@ -1,4 +1,7 @@
 # NUC8I5BEH Hackintosh
+
+[![HitCount](http://hits.dwyl.com/appleserial/NUC8I5BEH.svg)](http://hits.dwyl.com/appleserial/NUC8I5BEH)
+
 This is the hackintosh for the NUC8I5BEH
 
 ![Hackintosh](misc/ZmJlNmVkMTJj.png)
