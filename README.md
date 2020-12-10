@@ -1,7 +1,5 @@
 # NUC8I5BEH Hackintosh
 
-[![HitCount](http://hits.dwyl.com/appleserial/NUC8I5BEH.svg)](http://hits.dwyl.com/appleserial/NUC8I5BEH)
-
 This is the hackintosh for the NUC8I5BEH
 
 ![Hackintosh](misc/ZmJlNmVkMTJj.png)
@@ -36,35 +34,32 @@ Feel free to [Buy Me a Coffee](https://www.buymeacoffee.com/csrutil) or ![15iEcY
 ## CINEBENCH
 ![Cinebench](misc/cinebench.png)
 
-## TIPS
+## macOS TIPS
 
-### pmset
-  ```
-  # https://gist.github.com/csrutil/b2cce932dda8b226f37be2880215aee6
-  sudo pmset -c sleep 30
-  sudo pmset -c displaysleep 30
-  sudo pmset -c disksleep 30
-  sudo pmset -c hibernatemode 0
-  sudo pmset -c standby 0
-  sudo pmset -c autopoweroff 0
-  sudo pmset -c tcpkeepalive 1
-  ```
+```
+# https://gist.github.com/csrutil/b2cce932dda8b226f37be2880215aee6
+sudo pmset -c sleep 30
+sudo pmset -c displaysleep 30
+sudo pmset -c disksleep 30
+sudo pmset -c hibernatemode 0
+sudo pmset -c standby 0
+sudo pmset -c autopoweroff 0
+sudo pmset -c tcpkeepalive 1
 
-### disable the Spotlight indexes
-  ```
-  sudo mdutil -a -i off
-  ```
+# disable the Spotlight indexes
+sudo mdutil -a -i off
 
-### change host name
-  ```
-  sudo scutil --set HostName mini
-  sudo scutil --set ComputerName mini
-  sudo scutil --set LocalHostName mini
-  ```
+# change host name
+
+sudo scutil --set HostName mini
+sudo scutil --set ComputerName mini
+sudo scutil --set LocalHostName mini
+```
 
 ## CREDITS
-+ [acidanthera](https://github.com/acidanthera/OpenCorePkg)
-+ [OpenIntelWireless](https://github.com/OpenIntelWireless/itlwm)
-+ https://github.com/Rashed97/Intel-NUC-DSDT-Patch
-+ https://github.com/Rashed97/Intel-NUC-DSDT-Patch/commit/47476815b52f8e4c97e8f85df158c9ab1b6ecedd
-+ https://github.com/sarkrui/NUC8i7BEH-Hackintosh-Build
+- https://github.com/Sniki/OS-X-USB-Inject-All
+- [acidanthera](https://github.com/acidanthera/OpenCorePkg)
+- [OpenIntelWireless](https://github.com/OpenIntelWireless/itlwm)
+- https://github.com/Rashed97/Intel-NUC-DSDT-Patch
+- https://github.com/Rashed97/Intel-NUC-DSDT-Patch/commit/47476815b52f8e4c97e8f85df158c9ab1b6ecedd
+- https://github.com/sarkrui/NUC8i7BEH-Hackintosh-Build
