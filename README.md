@@ -34,7 +34,7 @@ Feel free to [Buy Me a Coffee](https://www.buymeacoffee.com/csrutil) or ![15iEcY
 ## CINEBENCH
 ![Cinebench](misc/cinebench.png)
 
-## macOS TIPS
+## macOS Tips
 
 ```
 # https://gist.github.com/csrutil/b2cce932dda8b226f37be2880215aee6
