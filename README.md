@@ -50,7 +50,6 @@ sudo pmset -c tcpkeepalive 1
 sudo mdutil -a -i off
 
 # change host name
-
 sudo scutil --set HostName mini
 sudo scutil --set ComputerName mini
 sudo scutil --set LocalHostName mini
