@@ -53,6 +53,8 @@ sudo mdutil -a -i off
 sudo scutil --set HostName mini
 sudo scutil --set ComputerName mini
 sudo scutil --set LocalHostName mini
+
+sudo spctl --master-disable
 ```
 
 ## CREDITS
