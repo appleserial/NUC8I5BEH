@@ -1,3 +1,7 @@
+### Tue Dec 15 21:06:19 CST 2020
+
++ Update macOS to macOS 11.1 20C69 x86_64
+
 ### Mon Nov 16 22:24:10 CST 2020
 
   + Update macOS to macOS Big Sur 11.0.1 20B29 x86_64
