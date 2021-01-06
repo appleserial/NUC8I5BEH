@@ -552,6 +552,8 @@
       <false/>
       <key>DisableIoMapper</key>
       <true/>
+      <key>DisableLinkeditJettison</key>
+      <true/>
       <key>ExternalDiskIcons</key>
       <false/>
       <key>IncreasePciBarSize</key>
@@ -803,6 +805,8 @@
     <dict>
       <key>EnableJumpstart</key>
       <true/>
+      <key>GlobalConnect</key>
+      <false/>
       <key>HideVerbose</key>
       <true/>
       <key>JumpstartHotPlug</key>
@@ -814,18 +818,20 @@
     </dict>
     <key>Audio</key>
     <dict>
-      <key>AudioSupport</key>
-      <false/>
-      <key>AudioDevice</key>
-      <string>PciRoot(0x0)/Pci(0x1b,0x0)</string>
       <key>AudioCodec</key>
       <integer>0</integer>
+      <key>AudioDevice</key>
+      <string>PciRoot(0x0)/Pci(0x1b,0x0)</string>
       <key>AudioOut</key>
       <integer>0</integer>
+      <key>AudioSupport</key>
+      <false/>
       <key>MinimumVolume</key>
       <integer>20</integer>
       <key>PlayChime</key>
-      <false/>
+      <string>Auto</string>
+      <key>SetupDelay</key>
+      <integer>0</integer>
       <key>VolumeAmplifier</key>
       <integer>0</integer>
     </dict>
@@ -902,8 +908,6 @@
     </dict>
     <key>Quirks</key>
     <dict>
-      <key>DeduplicateBootOrder</key>
-      <true/>
       <key>ExitBootServicesDelay</key>
       <integer>0</integer>
       <key>IgnoreInvalidFlexRatio</key>
