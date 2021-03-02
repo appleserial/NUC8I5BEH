@@ -1,3 +1,7 @@
+### Tue Mar  2 20:35:52 CST 2021
+
+  + Update opencore to 0.6.7
+
 ### Tue Dec 15 21:06:19 CST 2020
 
 + Update macOS to macOS 11.1 20C69 x86_64
