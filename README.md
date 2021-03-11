@@ -29,7 +29,8 @@ Soldered Wi-Fi and Bluetooth are not stable yet, will integrate later🍻
 
 ## Donating 💸
 
-Feel free to [Buy Me a Coffee](https://www.buymeacoffee.com/csrutil) or ![15iEcYV1Xpr3xM4Ytyg9DCfcFwyifRFdQM](misc/BTC.png?raw=true) `15iEcYV1Xpr3xM4Ytyg9DCfcFwyifRFdQM`
+- Feel free to [Buy Me a Coffee](https://www.buymeacoffee.com/csrutil)
+- `XMR 4APxe9PpCgw2RdZjkiBqVk6mdyforWiQvGHGCXp6iWojTZaqmfuKcAgBEXTkshDLwo6zGu5yNVUBriyVuUV8jUr58nnkexR`
 
 ## CINEBENCH
 ![Cinebench](misc/cinebench.png)
