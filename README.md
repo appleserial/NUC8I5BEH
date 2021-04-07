@@ -25,7 +25,7 @@ Please join Telegram [Join Telegram](https://t.me/hackintash), if you have any q
 
 ## Q&A
 
-Soldered Wi-Fi and Bluetooth are not stable yet, will integrate later🍻
+Soldered Wi-Fi and Bluetooth are not stable yet, will integrate later🍻. Please enable the USBInjectAll.kext and disable the USBPorts.kext on the Config.plist if you get some USB issues.
 
 ## Donating 💸
 
